@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const API_URL = "http://localhost:8080/api/cart";
 
-const API_URL = 'https://foodapp-production-jeet.up.railway.app/api/cart';
+const API_URL = "https://foodapp-production-jeet.up.railway.app/api/cart";
 
 export const addToCart = async (foodId, token) => {
     try {
