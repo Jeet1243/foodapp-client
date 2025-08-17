@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const API_URL = "http://localhost:8080/api";
 
-const API_URL = 'https://foodapp-production-jeet.up.railway.app/api';
+const API_URL = "https://foodapp-production-jeet.up.railway.app/api";
 
 export const registerUser = async (data) => {
     try {
